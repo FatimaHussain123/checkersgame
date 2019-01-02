@@ -8,7 +8,35 @@
     <title>Checkers</title>
 </head>
 <body>
-    <h1>To do for Fatima</h1>
-    <p> Look at canvas's in HTML</p>
-</body>
-</html>
+    <canvas id="myCanvas" width="600" height="600" style="border:1px solid #000000;">
+      </canvas>
+      <script>
+          var canvas = document.getElementById("myCanvas");
+          var ctx = canvas.getContext("2d");
+      
+
+       var x = 0
+       var y = 0
+       for(x = 0; x < 8; x++) {
+  
+         for(y = 0; y < 8; y++) {
+           if (y%2) {
+            if(x%2 === 0){
+            ctx.fillStyle = "#000000";
+             ctx.fillRect(x * 75,y * 75,75,75);
+           }
+           } else {
+            if(x%2 !== 0){
+            ctx.fillStyle = "#000000";
+             ctx.fillRect(x * 75,y * 75,75,75);
+           }
+           }
+           
+          
+         }
+       }
+          </script>
+        
+          
+          </body>
+          </html>
