@@ -12,48 +12,38 @@ document.addEventListener("DOMContentLoaded", function(){
         ctx.fill();
       
       }
-      for (i=0; i < 4; i++) {
+    for (i=0; i < 4; i++) {
         ctx.beginPath()
-        ctx.arc(i*150+ 112.5, 112.5, 30, 0, 2 * Math.PI);
+       ctx.arc(i*150+ 112.5, 112.5, 30, 0, 2 * Math.PI);
         ctx.strokeStyle = "blue";
         ctx.stroke();
-        ctx.fillStyle = "red";
+     ctx.fillStyle = "red";
         ctx.fill();
       
        }
-      
-      for (i=0; i < 8; i++) {
-        ctx.beginPath()
-        ctx.arc(562.5, 562.5, 30, 0, 2 * Math.PI);
-        ctx.strokeStyle = "blue";
-        ctx.stroke();
-        ctx.fillStyle = "red";
-        ctx.fill();
-      
-       }
-      
-      
-      
-      
-      
        
+       for ( var x=0; x < 4; x++) {
+        ctx.beginPath()
+        ctx.arc(x*150+37.5, 487.5, 30, 0, 2 * Math.PI);
+        ctx.strokeStyle = "eed";
+        ctx.stroke();
+        ctx.fillStyle = "blue";
+        ctx.fill();
       
-      // ctx.beginPath();
-       //ctx.arc(37.5, 37.5, 30, 0, 2 * Math.PI);
-       //ctx.strokeStyle = "blue";
-      // ctx.stroke();
-      // ctx.fillStyle = "red";
-      // ctx.fill();
+      }
+
+      for ( var x=0; x < 8; x++) {
+        ctx.beginPath()
+        ctx.arc(x*150+(-37.5), 562.5, 30, 0, 2 * Math.PI);
+        ctx.strokeStyle = "red";
+        ctx.stroke();
+        ctx.fillStyle = "blue";
+        ctx.fill();
       
-      // ctx.beginPath();
-      // ctx.arc(562.5, 562.5, 25, 0, 2 * Math.PI);
-      // ctx.strokeStyle = "blue";
-      // ctx.stroke();
-      // ctx.fillStyle = "red";
-      // ctx.fill();
+      }
         
       
-       var canvas = document.getElementById("myCanvas");
+      var canvas = document.getElementById("myCanvas");
       
       var ctx = canvas.getContext("2d");
       
@@ -80,8 +70,5 @@ document.addEventListener("DOMContentLoaded", function(){
       }
   });
 
-  
 
 
-
- 
