@@ -1,0 +1,135 @@
+#one {
+    position: absolute; 
+    left: 0px; 
+    top:0px;
+    z-index: 4;
+    width: 100px;
+}
+
+
+
+#two {
+    position: absolute; 
+    left: 200px; 
+    top:0px;
+    z-index: 4;
+    width: 100px;
+   }
+
+   #three {
+    position: absolute; 
+    left: 400px; 
+    top:0px;
+    z-index: 4;
+   width: 100px;
+   }
+
+   #four {
+    position: absolute; 
+    left: 600px; 
+    top:0px;
+    z-index: 4;
+   width: 100px;
+   }
+
+   
+   #five {
+    position: absolute; 
+    left: 100px; 
+    top:100px;
+    z-index: 10;
+   width: 100px;
+   }
+
+   #six {
+    position: absolute; 
+    left: 300px; 
+    top:100px;
+    z-index: 10;
+   width: 100px;
+   }
+
+   #seven {
+    position: absolute; 
+    left: 500px; 
+    top:100px;
+    z-index: 10;
+   width: 100px;
+   }
+
+   #eight {
+    position: absolute; 
+    left: 700px; 
+    top:100px;
+    z-index: 10;
+   width: 100px;
+   }
+
+   #oneb {
+    position: absolute; 
+    left: 0px; 
+    top:700px;
+    z-index: 4;
+   width: 100px;
+   }
+   
+   #twob {
+       position: absolute; 
+       left: 200px; 
+       top:700px;
+       z-index: 4;
+      width: 100px;
+      }
+   
+      #threeb {
+       position: absolute; 
+       left: 400px; 
+       top:700px;
+       z-index: 4;
+      width: 100px;
+      }
+   
+      #fourb {
+       position: absolute; 
+       left: 600px; 
+       top:700px;
+       z-index: 4;
+      width: 100px;
+      }
+   
+      
+      #fiveb {
+       position: absolute; 
+       left: 100px; 
+       top:600px;
+       z-index: 10;
+      width: 100px;
+      }
+   
+      #sixb {
+       position: absolute; 
+       left: 300px; 
+       top:600px;
+       z-index: 10;
+      width: 100px;
+      }
+   
+      #sevenb {
+       position: absolute; 
+       left: 500px; 
+       top:600px;
+       z-index: 10;
+      width: 100px;
+      }
+   
+      #eightb {
+       position: absolute; 
+       left: 700px; 
+       top:600px;
+       z-index: 10;
+      width: 100px;
+      }
+   
+   
+    
+
